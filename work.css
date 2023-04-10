@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(./Roboto-Regular.ttf);
+}
+.page{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(232, 221, 221);
+    display: flex;
+    flex-direction: row;
+}
+.page .page1 {
+    width: 60%;
+    height: 100%;
+}
+.page .page1 h1{
+    width: 80%;
+    height: 25%;
+    font-family: "Roboto";
+    font-size: 40px;
+    margin-left:50px;
+    margin-top: 70px;
+} 
+.page .page1 p{
+    width: 60%;
+    font-family: "Roboto";
+    height: 30%;
+    margin-left: 50px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 5px;
+    border-color: none;
+    border: 1px solid;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.page .page2{
+    width: 60%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page .page2 .box1{
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: none;
+    background-color: rgb(209, 205, 205);
+    /* background: linear-gradient(360deg,grey white wheat); */
+    /* background: radial-gradient(grey,white wheat); */
+}
+.page .page2 .box1 .box2{
+    width: 400px;
+    height: 400px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border: none;
+    background-color: rgb(235, 230, 230);
+}
+.page .page2 .box1 .box2 .box3{
+    width: 280px;
+    position: absolute;
+    height: 280px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: rgb(225, 214, 214);
+}
+.page2 .box1 .img1 img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: 0px;
+    top: 30px;
+    object-fit: cover;
+}
+.page2 .box1 .img2 img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    left: 400px;
+    top: 30px;
+    object-fit: cover;
+}
+.page2 .box1 .img3 img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    left: 70px;
+    top: 430px;
+    object-fit: cover;
+}
+.page2 .box1 .img4 img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 450px;
+    top: 320px;
+    object-fit: cover;
+}
+.page2 .box1  .box2 .img2 img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    left: 220px;
+    top: 40px;
+    object-fit: cover;
+}
+.page2 .box1  .box2 .img3 img{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    left: 220px;
+    top: 280px;
+    object-fit: cover;
+}
+.page2 .box1  .box2 .img4 img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: 40px;
+    top: 200px;
+    object-fit: cover;
+}
